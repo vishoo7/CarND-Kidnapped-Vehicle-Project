@@ -10,6 +10,8 @@
 #define PARTICLE_FILTER_H_
 
 #include "helper_functions.h"
+#include <random>
+
 
 struct Particle {
 
@@ -113,6 +115,7 @@ public:
 	const bool initialized() const {
 		return is_initialized;
 	}
+
 };
 
 
